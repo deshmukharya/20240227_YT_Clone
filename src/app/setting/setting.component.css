@@ -1,0 +1,304 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    height:80px;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+
+}
+.icon{
+    margin-left:25px;
+}
+
+.icon i{
+  font-size:25px;
+  color:white;
+}
+.image{
+    margin-left:25px;
+}
+.search{
+ margin-left:300px;
+}
+.search input{
+    height:35px;
+    width:500px;
+    background-color:transparent;
+    border:1px solid white;
+    opacity:0.5;
+    border-radius:30px;
+    padding-left:20px;
+}
+.search input::placeholder{
+    color:white;
+}
+.mic{
+    margin-left:20px;
+}
+.mic i{
+    color:white;
+    height:40px;
+    width:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(76, 75, 75);
+    border-radius:50%;
+    font-size:20px;
+
+}
+
+.creat{
+    margin-left:280px;
+}
+.creat i{
+    color:white;
+    font-size:22px;
+}
+.bell{
+    margin-left:20px;
+
+}
+.bell i{
+    color: white;
+    font-size: 22px;
+}
+.user{
+    margin-left:20px;
+
+}
+.user i{
+    color: white;
+    height:40px;
+    width:40px;
+    border-radius: 50px;
+    background-color: rgb(76, 75, 75);
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+.slidebar{
+    height:100vh;
+    width:200px;
+    background-color: transparent;
+    padding-left: 25px;
+    margin-top: 20px;
+    overflow:auto;
+
+}
+
+.home h4{
+ 
+     text-decoration: none;
+     margin-left: 12px;
+}
+.home i{
+    color:white;
+    font-size: 20px;
+}
+.shorts{
+    margin-top: 25px;
+}
+.shorts i{
+   color:white;
+   font-size: 20px;
+}
+.shorts a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+
+.subscription{
+    margin-top: 25px;
+}
+.subscription i{
+   color:white;
+   font-size: 20px;
+}
+.subscription a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+.line{
+    height:2px;
+    width:200px;
+    background-color: white;
+    margin-top: 25px;
+    opacity: 0.5;
+}
+
+.you{
+    margin-top: 25px;
+}
+.you i{
+   color:white;
+   margin-left: 10px;
+}
+.you a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.channel{
+    margin-top: 20px;
+}
+.channel i{
+   color:white;
+   height:15px;
+   width: 15px;
+   border:2px solid white;
+}
+.channel a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+
+.history{
+    margin-top: 20px;
+}
+.history i{
+   color:white;
+   font-size: 20px;
+}
+.history a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+.video{
+    margin-top: 25px;
+}
+.video i{
+   color:white;
+   font-size: 20px;
+}
+.video a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+.watch-later{
+    margin-top: 20px;
+}
+.watch-later i{
+   color:white;
+   font-size: 20px;
+}
+.watch-later a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+
+.down{
+    margin-top: 20px;
+}
+.down i{
+   color:white;
+   font-size: 20px;
+}
+.down a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size:18px;
+}
+ .subs{
+    margin-top: 20px;
+ }
+ .subs a{
+    color:white;
+    text-decoration: none;
+ }
+.upsc{
+    margin-top: 20px;
+}
+.upsc i{
+   color:white;
+}
+.upsc a{
+    color:white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.explore{
+    margin-top: 20px;
+}
+
+.explore a{
+    color:white;
+    text-decoration: none;
+  
+}
+.trending{
+    margin-top: 20px;
+}
+.trending i{
+   color:white;
+}
+.trending a{
+    color:white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.setting{
+    margin-top: 20px;
+}
+.setting i{
+   color:white;
+}
+.setting a{
+    color:white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.desc{
+color: white;
+font-size: 15px;
+margin-top:20px;
+opacity: 0.7;
+}
+
+.desc a{
+    color:white;
+    text-decoration: none;
+    opacity: 0.5;
+    font-size:10px;
+}
+
+.button {
+    color: #ffffff; /* Light text color */
+}
+
+.line-1 button{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 6px;
+     padding-bottom: 6px;
+     border-radius:10px;
+     background-color: rgb(56,50,50) ;
+     color:white;
+     border:none;
+}
+
+.youtube-bar{
+    background-color: white;
+}
